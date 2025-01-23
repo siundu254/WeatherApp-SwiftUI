@@ -7,6 +7,6 @@
 
 import Foundation
 
-struct ForecastModel: Codable {
-    let main: String
+struct ForecastListModel: Codable {
+    let list: [DailyWeatherModel]
 }
